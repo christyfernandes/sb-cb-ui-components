@@ -1,5 +1,5 @@
 <div class="topLevel-card" *ngIf="post.status !== 'inactive'" [ngClass]="{'topLevel-card' : cardType=== 'topLevel',
-'reply-card mb-3' : cardType=== 'reply', 'reply-card-l2 mb-3' : cardType=== 'reply-l2',
+'reply-card mb-3' : cardType=== 'reply',
 'suspended': post && post.status === 'suspended', 'disabled': !userJoinedCommunity}">
     <div class="flex user-info">
         <div>

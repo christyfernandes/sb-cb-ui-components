@@ -180,5 +180,6 @@ export namespace NsDiscussionV2 {
     export enum EPostType {
         QUESTION = 'question',
         ANSWER_POST = 'answerPost',
+        ANSWER_POST_REPLY = 'answerPostReply',
     }
 }

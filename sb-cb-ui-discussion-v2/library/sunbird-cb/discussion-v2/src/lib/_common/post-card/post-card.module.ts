@@ -18,12 +18,14 @@ import { SharedModule } from '../../_shared/shared.module';
 import { ImageSlidersModule } from '../image-sliders/image-sliders.module';
 import { PostCardComponent } from './post-card.component';
 import { NewPostModule } from '../new-post/new-post.module';
+import { PostCardV2Component } from './post-card-v2/post-card-v2.component';
 
 
 
 @NgModule({
   declarations: [
-    PostCardComponent
+    PostCardComponent,
+    PostCardV2Component
   ],
   imports: [
     CommonModule,
@@ -45,6 +47,6 @@ import { NewPostModule } from '../new-post/new-post.module';
     ImageSlidersModule,
     NewPostModule
   ], 
-  exports: [PostCardComponent]
+  exports: [PostCardComponent, PostCardV2Component]
 })
 export class PostCardModule { }
